@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "js",
+    "strict": true,
+    "watch": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "files": ["./app/app.ts"],
+  "exclude": ["node_modules", "dist"]
+}
