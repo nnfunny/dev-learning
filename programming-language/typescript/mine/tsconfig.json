@@ -12,6 +12,6 @@
     "module": "commonjs",
     "moduleResolution": "node"
   },
-  "files": ["./app/app.ts"],
+  "include": ["./app/**/*"],
   "exclude": ["node_modules", "dist"]
 }
